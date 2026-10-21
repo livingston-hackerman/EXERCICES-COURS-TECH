@@ -9,7 +9,7 @@ const transportNumber = Number(transportTexte); // Type : number ; unité : FCFA
 const alimentationNumber = Number(alimentationTexte); // Type : number ; unité : FCFA
 const loisirs = Number(loisirsTexte); // Type : number ; unité : FCFA
 // TODO : calculez le total, le budget restant et budgetRespected.
-console.log(" Le Budget total de "+ nom +" est de est:") // Type : number ; unité : FCFA
+console.log(" Le Budget total de "+ nom +" est de est:") // Type : string ; unité : FCFA
 console.log(Number(transportTexte)+Number(alimentationTexte)+Number(loisirsTexte)) // Type : number ; unité : FCFA
 
 console.log(" Le Budget restant de "+ nom +" est de est:") // Type : string
@@ -30,7 +30,7 @@ const VariationTransportNumber = Number(VariationTransportTexte); // Type : numb
 const VariationAlimentationNumber = Number(VariationAlimentationTexte); // Type : number ; unité : FCFA
 const VariationLoisirsNumber = Number(VariationLoisirsTexte); // Type : number ; unité : FCFA
 // TODO : calculez le total, le budget restant et budgetRespected.
-console.log(" Le Budget total de "+ nom +" est de est:") // Type : number ; unité : FCFA
+console.log(" Le Budget total de "+ nom +" est de est:") // Type : string ; unité : FCFA
 console.log(Number(VariationTransportTexte)+Number(VariationAlimentationTexte)+Number(VariationLoisirsTexte)) // Type : number ; unité : FCFA
 
 console.log(" Le Budget restant de "+ nom +" est de est:") // Type : string
