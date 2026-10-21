@@ -1,7 +1,16 @@
-Cas Awa avec budget 50000 :
-> node .\depenses.js
-> À compléter avec la sortie réelle : total 38300, reste 11700, true
+ Le Budget total de Awa est de est:
+38300
+ Le Budget restant de Awa est de est:
+11700
+ puisque budget - depenses donne:
+true
+le budget est respecté.
 
-Variation budget 30000 :
-> node .\depenses.js
-> À compléter avec la sortie réelle : reste -8300, false
+CAS AWA avec Variation budget.
+ Le Budget total de Awa est de est:
+38300
+ Le Budget restant de Awa est de est:
+-8300
+ puisque budget - depenses donne:
+false
+le budget n'est pas respecté.
