@@ -1,6 +1,16 @@
-let 1 = 1
-while(1 < 30) {
+let i = 1
+while(i <= 30) {
+    if((i%3 == 0) && (i%5 == 0)){
+    console.log("FizzBuzz");
+    }
+    else if(i%3 == 0){
+    console.log("Fizz");
+    }
+    else if(i%5 == 0){
+    console.log("buzz");
+    }
+    else{
     console.log(i);
-    epargne += 4000;
+    }
     i++;
 }
