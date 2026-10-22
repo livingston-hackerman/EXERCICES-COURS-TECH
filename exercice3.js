@@ -1,10 +1,6 @@
 const BilletMineur = 1500
 const BilletMajeur = 2500
-let i = 11
-while(i<=20) {
-    if(i<=16)
-    console.log(i+Text(BilletMineur));
+for (let i = 10; i < 20; i++){
+    console.log("FizzBuzz");
     }
-    else if(i>=16){
-    console.log(i+Text(BilletMajeur));
-    }
+    
