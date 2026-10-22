@@ -1,5 +1,5 @@
 const nom = 'Awa'; // Type : string
-const budget = 50000; // Type : number ; unité : FCFA
+const budget = 10000; // Type : number ; unité : FCFA
 const transportTexte = '12500'; // Type : string ; unité : FCFA
 const alimentationTexte = '18300'; // Type : string ; unité : FCFA
 const loisirsTexte = '7500'; // Type : string ; unité : FCFA
@@ -15,7 +15,7 @@ console.log(Number(transportTexte)+Number(alimentationTexte)+Number(loisirsTexte
 console.log(" Le Budget restant de "+ nom +" est de est:") // Type : string
 console.log(budget - (transportNumber + alimentationNumber + loisirs)) // Type : number ; unité : FCFA
 
-console.log(" puisque budget - depenses donne:") // Type : string
+console.log(" puisque budget - depenses donne:") // Type : string 
 console.log(budget > (transportNumber + alimentationNumber + loisirs)); // Type : boolean
 console.log("le budget est respecté.\n\nCAS AWA avec Variation budget."); // Type : string
 
@@ -39,5 +39,3 @@ console.log(VariationBudget - (VariationTransportNumber + VariationAlimentationN
 console.log(" puisque budget - depenses donne:") // Type : string
 console.log(VariationBudget > (VariationTransportNumber + VariationAlimentationNumber + VariationLoisirsNumber)); // Type : boolean
 console.log("le budget n'est pas respecté."); // Type : string
-
-
