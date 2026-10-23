@@ -1,12 +1,10 @@
-let jour = "mardi"
+let jour = 'mardi'
 
 switch (jour) {
-  case 'apple':
-    console.log('Apple');
-    break;
-  case 'banana':
-    console.log('Banana');
+  case 'samedi':
+  case 'dimanche':
+    console.log('repos');
     break;
   default:
-    console.log('Unknown fruit');
+    console.log('travail');
 }
